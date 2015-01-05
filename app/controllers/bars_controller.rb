@@ -6,7 +6,7 @@ class BarsController < ApplicationController
 	def search
 
 		location = params[:location]
-	  parameters = { term: 'beer', limit: 10 }
+	  parameters = { term: 'beer', limit: 5 }
 	  @founded = Yelp.client.search( location, parameters )
 	
 	end

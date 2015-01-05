@@ -1,9 +1,13 @@
-<ul>
-		<% @founded.businesses.each do |bars| %>
-				Name: <%= bars.name %>
-				Address: <%= bars.location.display_address[0] %>
-		<% end %>
-		
+<ul class="results">
+	<% @founded.businesses.each do |bars| %>
+			<li> 
+				Name: <a href="<%= bars.url %>"> <%= bars.name %> </a>
+				<br>
+				Address: <%= bars.location.display_address[0] %> 
+			</li>
+			<br>
+	<% end %>
 
 	<%= link_to '<button type="button">Search Again</button>'.html_safe, root_path %>
 </ul>
+

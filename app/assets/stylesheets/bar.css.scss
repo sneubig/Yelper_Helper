@@ -1,3 +1,5 @@
+
+
 .form{
 	width: 20%;
 	height: 20%;
@@ -8,6 +10,22 @@
 	top: 40%;
 }
 
+.results{
+	width: 40%;
+	height: 60%;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	position: absolute;
+	right: 10%;
+	top: 20%;
+	li{
+		list-style-type: none;
+	}
+}
+
 .searchtag{
 	color: white;
+	display: block;
 }
+
+
