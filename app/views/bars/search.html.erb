@@ -1,4 +1,9 @@
-<% @founded.businesses.each do |bars| %>
-	<li>Name: <%= bars.name %> </li>
-	<li>Address: <%= bars.location.display_address[0] %> </li>
-<% end %>
+<ul>
+		<% @founded.businesses.each do |bars| %>
+				Name: <%= bars.name %>
+				Address: <%= bars.location.display_address[0] %>
+		<% end %>
+		
+
+	<%= link_to '<button type="button">Search Again</button>'.html_safe, root_path %>
+</ul>

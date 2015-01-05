@@ -1,9 +1,17 @@
 header{
-	height: 3em;
+	height: 5em;
 	background-color: #000;
 	h1{
 		color: #fff;
 		margin: 0;
 		text-align: center;
 	}
+}
+
+body, html{
+	max-width: 100%;
+	max-height: 100%;
+	background-image: url(http://www.timepassbangalore.com/wp-content/uploads/2014/08/beer-1565057.jpg);
+	background-size: cover;
+	overflow: hidden;
 }
