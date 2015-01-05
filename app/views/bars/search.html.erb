@@ -1,0 +1,4 @@
+<% @founded.businesses.each do |bars| %>
+	<li>Name: <%= bars.name %> </li>
+	<li>Address: <%= bars.location.display_address[0] %> </li>
+<% end %>

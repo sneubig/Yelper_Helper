@@ -1,0 +1,10 @@
+<%= form_tag("/search", method: "GET") do %>
+  <div class="searchtag">
+  	<%= label_tag(:location, "Enter zip or city/state:") %> 
+  </div>
+  
+  <div class="textfield"> 
+  	<%= text_field_tag :location %>
+  	<%= button_tag ("Search") %>
+  </div>
+<% end %>
