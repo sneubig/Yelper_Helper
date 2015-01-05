@@ -1,4 +1,5 @@
 class BarsController < ApplicationController
+	
 	def index
 		@bars = Bar.all
 	end
@@ -11,6 +12,7 @@ class BarsController < ApplicationController
 	  else
 	    redirect_to root_path
 	  end
+	
 	end
 
 end
