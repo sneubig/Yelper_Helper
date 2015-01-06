@@ -7,11 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<header>
-		<h1>Yelper Helper: Bar Finder</h1>
-	</header>
+	<div class="container-fluid">
+		<header class="col-sm-5 col-sm-offset-6 col-xs-10 col-xs-offset-1">
+			<h1>Yelper Helper: Bar Finder</h1>
+		</header>
 
-	<%= yield %>
-
+		<%= yield %>
+	</div>
 </body>
 </html>

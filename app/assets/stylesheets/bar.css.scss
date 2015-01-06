@@ -1,13 +1,9 @@
 
 .form{
-	width: 20%;
-	min-width: 15em;
+	margin-top: 10em;
 	padding: 2em;
 	background-color: rgba(0,0,0,.7);
 	text-align: center;
-	position: absolute;
-	right: 20%;
-	top: 40%;
 	button{
 		background-color: white;
 		border-radius: 10%;
@@ -19,9 +15,7 @@
 	padding: 2em;
 	background-color: rgba(0,0,0,.5);
 	color: white;
-	position: absolute;
-	right: 20%;
-	top: 20%;
+	border-radius: 10%;
 	li{
 		list-style-type: none;
 	}

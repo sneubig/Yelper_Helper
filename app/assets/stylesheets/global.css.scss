@@ -1,13 +1,5 @@
-header{
-	height: 3em;
-	width: 100%;
-	float: right;
-	background-color: #000;
-	h1{
-		color: #fff;
-		margin: 0;
-		text-align: center;
-	}
+*{
+	box-sizing: border-box;
 }
 
 html{
@@ -26,3 +18,13 @@ body{
   background-size: cover;
 }
 
+header{
+	margin-top: 5%;
+	background-color: rgba(0,0,0,.3);
+	h1{
+		color: #fff;
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+		padding: .25em;
+	}
+}
