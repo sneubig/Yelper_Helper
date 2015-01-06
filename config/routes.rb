@@ -4,7 +4,6 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'bars#index'
-  resources :bars
   # resources :welcome, only: :index
   post '/search' => 'bars#search'
 
