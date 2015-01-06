@@ -2,28 +2,47 @@
 .form{
 	margin-top: 10em;
 	padding: 2em;
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0,0,0,.8);
 	text-align: center;
+	h1{
+		color: #fff;
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+		margin: 0;
+		margin-bottom: 1em;
+	}
 	button{
-		background-color: white;
-		border-radius: 10%;
 		margin-top: 1em;
 	}
 }
 
 .results{
-	padding: 2em;
-	background-color: rgba(0,0,0,.5);
+	margin-top: 1em;
+	padding: .5em 1em;
+	background-color: rgba(0,0,0,.8);
 	color: white;
 	border-radius: 10%;
+
 	li{
 		list-style-type: none;
+	}
+	h1{
+		color: #fff;
+		text-align: center;
+		font-family: 'Dancing Script', cursive;
+		margin-bottom: .5em;
 	}
 }
 
 .searchtag{
 	color: white;
 	display: block;
+}
+
+button{
+	background-color: white;
+	color: black;
+	border-radius: 10%;
 }
 
 
